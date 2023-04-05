@@ -1,0 +1,48 @@
+.checked {
+    text-decoration: line-through;
+    color: #eb0047;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem;
+  }
+  
+  .card {
+    width: 20rem;
+    height: 11rem;
+    background-color: #fff;
+    border-radius: 0.85rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .actions button {
+    padding: 0.5rem 1rem;
+  }
+  
+  .card-body {
+    margin-top: 1rem;
+  }
