@@ -1,24 +1,3 @@
-<!-- <template>
-  <div class="modal">
-    <div class="modal-overlay"></div>
-    <form @submit.prevent="saveProduct">
-      <label>
-        Product Name:
-        <input type="text" v-model="editedProduct.name" />
-      </label>
-      <label>
-        Quantity:
-        <input type="number" v-model="editedProduct.quantity" />
-      </label>
-      <label>
-        Due Date:
-        <input type="date" v-model="editedProduct.dueDate" />
-      </label>
-      <button type="submit">Save</button>
-      <button type="button" @click="cancelSave">Cancel</button>
-    </form>
-  </div>
-</template> -->
 <template>
   <div class="modal">
     <div class="modal-overlay"></div>
@@ -73,35 +52,5 @@ export default {
 };
 </script>
 
-<!-- <style scoped>
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-form {
-  position: relative;
-  width: 400px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-}
-</style> -->
 <style src="../assets/productEdit.css" scoped></style>
 
